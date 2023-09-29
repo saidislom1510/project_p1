@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1221px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #181511;
+}
+
+.navbarcon-logo {
+    color: #FFAE2B;
+    font-family: Old Standard TT;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 25px 42px 27px 0px;
+
+    @media screen and (max-width:480px) {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:480px) {
+        display: block;
+    }
+
+}
+
+.navbar-content-p1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:480px) {
+        display: block;
+    }
+
+}
+
+.navbar-content-p1 ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:480px) {
+        display: block;
+    }
+
+}
+
+.simple {
+    color: #ACA592;
+    font-family: Old Standard TT;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-right: 40px;
+
+    @media screen and (max-width:480px) {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+}
+
+.simple:hover {
+    color: #FFAE2B;
+    transition: 0.3s;
+}
+
+.navbar-content-p2 {
+
+    @media screen and (max-width:480px) {
+        text-align: center;
+    }
+
+}
+
+.navbar-content-p2 button {
+    color: #FFAE2B;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #FFAE2B;
+    padding: 15px 25px;
+    cursor: pointer;
+
+    @media screen and (max-width:480px) {
+        margin: 20px 0px;
+    }
+
+}
+
+.header-body {
+    background-image: url(../img/header/IMAGE.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-body-content {
+    text-align: center;
+}
+
+.hb-con-title-p1 {
+    color: #FFAE2B;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 120px 0px 15px 0px;
+}
+
+.hb-con-title-p2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1px;
+    padding: 0px 0px 35px 0px;
+}
+
+.hb-con-btn button {
+    color: #181511;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 14px 24px;
+    background: #FFAE2B;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+
+.body {
+    background: #181511;
+}
+
+.body-content-title {
+    text-align: center;
+}
+
+.body-content-titlep1 {
+    color: #ACA592;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 120px 0px 10px 0px;
+}
+
+.body-content-titlep2 {
+    color: #FFAE2B;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    padding-bottom: 60px;
+}
+
+.body-content-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 21px;
+}
+
+.body-content-card {
+    width: 387px;
+    height: 315px;
+    flex-shrink: 0;
+    border: 1px solid #4B4136;
+    background: #181511;
+}
+
+.body-content-card img {
+    width: 305px;
+    height: 190px;
+    flex-shrink: 0;
+    margin: 41px 41px 20px 41px;
+}
+
+.body-content-card img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.body-content-card p {
+    color: #FFF;
+    font-family: Old Standard TT;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.body-img img {
+    width: 100%;
+    height: 573px;
+    margin-top: 100px;
+}
+
+.body-end-title {
+    text-align: center;
+}
+
+.body-end-title-p1 {
+    color: #ACA592;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 158px 0px 10px 0px;
+}
+
+.body-end-title-p2 {
+    color: #FFAE2B;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    padding-bottom: 63px;
+}
+
+.body-end-cardp1 {
+    width: 400px;
+    height: 350px;
+    border: 1px solid #4B4136;
+    padding: 61px 0px 60px 61px;
+}
+
+.body-end-cardp2 {
+    width: 400px;
+    height: 350px;
+    border: 1px solid #4B4136;
+    padding: 61px 0px 60px 61px;
+    margin-top: 3px;
+}
+
+.body-end-cardp3 {
+    width: 400px;
+    height: 350px;
+    border: 1px solid #4B4136;
+    padding: 61px 0px 60px 61px;
+    margin-top: 16px;
+}
+
+.be-card-title {
+    color: #FFAE2B;
+    font-family: Old Standard TT;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 20px 0px 10px 0px;
+}
+
+.be-card-text {
+    color: #ACA592;
+    font-family: Old Standard TT;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.body-end-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end img {
+    margin-top: 104px;
+}
+
+.footer {
+    background: #181511;
+}
+
+.footercon-title {
+    text-align: center;
+}
+
+.footercon-titlep1 {
+    color: #FFAE2B;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    padding: 125px 0px 20px 0px;
+}
+
+.footercon-titlep2 {
+    color: #ACA592;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 82px;
+}
+
+.footercon-logo {
+    margin: 0 390px;
+}
+
+.black {
+    width: 420px;
+    height: 59px;
+    background: #181511;
+    border: 1px solid #4B4136;
+}
+
+.yellow {
+    width: 420px;
+    height: 50px;
+    background: #FFAE2B;
+}
+
+.footercon-logo-text p {
+    color: #ACA592;
+    text-align: center;
+    font-family: Old Standard TT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 35px 0px 21px 0px;
+}
+
+.foterconf-p {
+    border: 1px solid #4B4136;
+    padding: 14px;
+    margin: 0px 8px 42px 0px;
+}
+
+.footercon-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.hr-end {
+    width: 100%;
+    height: 1px;
+    background: #4B4136;
+}
+
+.footer-end-text1 p {
+    color: #ACA592;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 25px 0px 25px 0px;
+}
+
+.footer-end-text1 p span {
+    color: #FFAE2B;
+    font-family: Old Standard TT;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-end-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-end-text2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-end-text2 p {
+    color: #FFAE2B;
+    font-family: Old Standard TT;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-end-text2 div {
+    width: 1px;
+    height: 10px;
+    background-color: #4B4136;
+}
